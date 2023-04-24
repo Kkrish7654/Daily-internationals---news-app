@@ -1,0 +1,227 @@
+.head.light .text {
+  color: #333; }
+
+.head.light .background {
+  background-color: #FBCFFC; }
+
+.head.dark .text {
+  color: white; }
+
+.head.dark .background {
+  background-color: #222; }
+
+.head {
+  position: fixed;
+  width: 100%;
+  z-index: 10; }
+  .head .navbar {
+    display: flex;
+    padding: .8rem 2rem;
+    justify-content: space-between;
+    align-items: center; }
+    .head .navbar div h3 {
+      font-family: "Nunito",sans-serif;
+      font-weight: 600;
+      font-size: 1.8rem; }
+      .head .navbar div h3 a {
+        text-decoration: none; }
+    .head .navbar .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+      .head .navbar .nav-links li {
+        list-style: none; }
+        .head .navbar .nav-links li a {
+          text-decoration: none;
+          font-size: 1.4rem; }
+    .head .navbar .hamburger {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem; }
+      .head .navbar .hamburger .hamburger-menu {
+        display: flex;
+        flex-direction: column;
+        scale: 1.1;
+        gap: 4px;
+        border: none;
+        background: none; }
+        .head .navbar .hamburger .hamburger-menu .line {
+          width: 25px;
+          height: 4px;
+          background-color: black;
+          border-radius: 5px; }
+
+.about-me {
+  padding: 5rem 2rem; }
+  .about-me h1 {
+    font-size: 2rem;
+    margin-bottom: .4rem; }
+  .about-me .sub-title {
+    display: inline-flex;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 10px; }
+  .about-me p {
+    margin-bottom: 2rem; }
+  .about-me h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem; }
+  .about-me .project-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; }
+    .about-me .project-cards .project-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: calc(50% - 0.5rem);
+      padding: 1rem;
+      background-color: #fff;
+      border-radius: 0.5rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease; }
+      .about-me .project-cards .project-card:hover {
+        transform: translateY(-0.25rem);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); }
+      .about-me .project-cards .project-card img {
+        width: 100%;
+        margin-bottom: 1rem;
+        border-radius: 0.25rem; }
+      .about-me .project-cards .project-card h3 {
+        font-size: 1.25rem;
+        font-weight: 500;
+        margin-bottom: 0.5rem; }
+
+.main.light .text {
+  color: black; }
+
+.main.light .background {
+  background-color: #FBCFFC; }
+
+.main.dark .text {
+  color: white; }
+
+.main.dark .background {
+  background-color: #222; }
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  font-size: 1.2rem; }
+  .footer-container .footer-info h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem; }
+  .footer-container .footer-contact h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem; }
+  .footer-container .footer-contact ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1.1rem; }
+    .footer-container .footer-contact ul li {
+      margin-bottom: 0.5rem; }
+  .footer-container .footer-copyright {
+    font-size: 1rem;
+    text-align: right; }
+
+.container.light .text {
+  color: #333; }
+
+.container.light .popular-headline {
+  color: blue; }
+
+.container.light .headline {
+  color: blueviolet; }
+
+.container.light .title {
+  color: #5D1CA9; }
+
+.container.light .hero-subtitle {
+  color: white;
+  background-color: blueviolet; }
+
+.container.light .background {
+  background-color: #ffedfe; }
+
+.container.dark .text {
+  color: white; }
+
+.container.dark .popular-headline {
+  color: #F0EEED; }
+
+.container.dark .headline {
+  color: #6096B4; }
+
+.container.dark .hero-subtitle {
+  color: white;
+  background-color: #222; }
+
+.container.dark .background {
+  background-color: #111; }
+
+.container .hero-section {
+  display: flex;
+  padding: 5rem 1rem;
+  gap: 1rem; }
+  .container .hero-section div:nth-child(1) {
+    width: 30%;
+    margin-top: 2rem;
+    margin: 5px; }
+    .container .hero-section div:nth-child(1) .popular-section {
+      width: 100%; }
+      .container .hero-section div:nth-child(1) .popular-section div {
+        width: 100%;
+        border-bottom: 1px solid #9D1CA9;
+        padding: 5px; }
+        .container .hero-section div:nth-child(1) .popular-section div a {
+          text-decoration: none; }
+          .container .hero-section div:nth-child(1) .popular-section div a:hover {
+            color: #961DDA; }
+  .container .hero-section div:nth-child(2) {
+    width: 100%; }
+    .container .hero-section div:nth-child(2) .hero-title {
+      font-weight: 500;
+      text-decoration: underline;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+    .container .hero-section div:nth-child(2) h3 {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+    .container .hero-section div:nth-child(2) .hero-subtitle {
+      margin: 5px 5px 5px 0px;
+      padding: 5px 10px;
+      font-size: 1.3rem;
+      border-radius: 5px;
+      display: inline-flex; }
+    .container .hero-section div:nth-child(2) .post-box div {
+      width: 100%;
+      margin: 2px; }
+      .container .hero-section div:nth-child(2) .post-box div h3 {
+        font-size: 1.4rem; }
+    .container .hero-section div:nth-child(2) .post-box .showAll-btn {
+      padding: 5px 10px;
+      border: none;
+      border-radius: 5px;
+      background-color: #4D1CA9;
+      color: white; }
+
+.blog-container.light .text {
+  color: #222; }
+
+.blog-container.light .background {
+  background-color: #ffedfe; }
+
+.blog-container.dark .text {
+  color: white; }
+
+.blog-container.dark .background {
+  background-color: #111; }
+
+.blog-container .blog-section {
+  padding: 5rem 1rem;
+  min-height: 100vh;
+  height: 100%;
+  width: 100%; }

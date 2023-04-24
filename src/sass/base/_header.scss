@@ -1,0 +1,83 @@
+@import "colors";
+
+
+.head.light{
+  .text{
+    color: #333;
+  }
+  
+  .background{
+    background-color:#FBCFFC;
+  }
+}
+
+.head.dark{
+  .text{
+    color: white;
+  }
+  
+  .background{
+    background-color:#222;
+  }
+}
+
+.head{
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+
+  .navbar{
+    display: flex;
+    padding: .8rem 2rem;
+    justify-content: space-between;
+    align-items: center;
+
+    div{
+      h3{
+        font-family: "Nunito",sans-serif;
+        font-weight: 600;
+        font-size: 1.8rem;
+        
+        a{
+          text-decoration: none;
+        }
+      }
+    }
+
+    .nav-links{
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      li{
+        list-style: none;
+
+        a{
+          text-decoration: none;
+          font-size: 1.4rem;
+        }
+      }
+    }
+    .hamburger{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+
+      .hamburger-menu{
+        display: flex;
+        flex-direction: column;
+        scale: 1.1;
+        gap: 4px;
+        border:none;
+        background: none;
+        .line{
+          width: 25px;
+          height: 4px;
+          background-color: black;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+}

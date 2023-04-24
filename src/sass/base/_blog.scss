@@ -1,0 +1,28 @@
+
+.blog-container.light{
+  .text{
+    color: #222;
+  }
+  .background{
+    background-color: #ffedfe;;
+  }
+}
+
+.blog-container.dark{
+  .text{
+    color: white;
+  }
+  
+  .background{
+    background-color: #111;
+  }
+}
+
+.blog-container{
+  .blog-section{
+    padding: 5rem 1rem;
+    min-height: 100vh; 
+    height: 100%;
+    width: 100%;
+  }
+}

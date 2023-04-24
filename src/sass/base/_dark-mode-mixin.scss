@@ -1,0 +1,9 @@
+@mixin toggle-dark-mode($bg-color,$text-color){
+  background-color: $bg-color;
+  color: $text-color;
+
+  .dark-mode{
+    background-color:$background-color-dark ;
+    color: $text-color-dark;
+  }
+}
